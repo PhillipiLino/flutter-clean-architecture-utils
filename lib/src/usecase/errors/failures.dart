@@ -1,6 +1,8 @@
 // coverage:ignore-file
 part of solfacil_architecture_utils;
 
+final _localizations = ModuleLocalizations().failures;
+
 abstract class Failure extends Equatable {
   final String message;
 
@@ -18,8 +20,8 @@ class ServerFailure extends Failure {
 }
 
 class DefaultFailure extends Failure {
-  const DefaultFailure()
-      : super('Ocorreu um erro. Tente novamente mais tarde.');
+  static final _message = _localizations.defaultFailureMessage;
+  DefaultFailure() : super(_message);
 
   @override
   List<Object?> get props => [message];
@@ -30,10 +32,8 @@ class NullResponseFailure extends Failure {
 }
 
 class NoConnectionFailure extends Failure {
-  const NoConnectionFailure()
-      : super(
-          'Sem conexão com a internet. Por favor, verifique sua conexão e tente novamente.',
-        );
+  static final _message = _localizations.noConnectionFailureMessage;
+  NoConnectionFailure() : super(_message);
 
   @override
   List<Object?> get props => [message];

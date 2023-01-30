@@ -1,0 +1,7 @@
+{
+    "@@last_modified": "2018-05-25T11:50:40.743319",
+    "@@locale": "pt",
+    
+    "defaultFailureMessage": "Ocorreu um erro. Tente novamente mais tarde.",
+    "noConnectionFailureMessage": "Sem conexão com a internet. Por favor, verifique sua conexão e tente novamente."
+}
