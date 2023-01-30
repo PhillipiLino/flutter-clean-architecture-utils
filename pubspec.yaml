@@ -10,6 +10,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  dartz: ^0.10.0
+  equatable: ^2.0.3
+  flutter_triple: ^1.2.7+2
+  flutter_modular: ^5.0.2
+  event_bus: ^2.0.0
 
 dev_dependencies:
   flutter_test:
