@@ -1,4 +1,4 @@
-part of solfacil_architecture_utils;
+part of clean_architecture_utils;
 
 class MainPageState<TWidget extends StatefulWidget, TBind extends Object>
     extends State<TWidget> {

@@ -1,4 +1,4 @@
-library solfacil_architecture_utils;
+library clean_architecture_utils;
 
 import 'package:dartz/dartz.dart';
 import 'package:equatable/equatable.dart';

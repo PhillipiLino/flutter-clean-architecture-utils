@@ -1,4 +1,4 @@
-part of solfacil_architecture_utils;
+part of clean_architecture_utils;
 
 class MainStore<T extends Object> extends StreamStore<Failure, T> {
   final EventBus? eventBus;

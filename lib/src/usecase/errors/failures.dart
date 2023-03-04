@@ -1,5 +1,5 @@
 // coverage:ignore-file
-part of solfacil_architecture_utils;
+part of clean_architecture_utils;
 
 final _localizations = ModuleLocalizations().failures;
 

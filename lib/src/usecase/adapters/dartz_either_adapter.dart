@@ -1,5 +1,5 @@
 // coverage:ignore-file
-part of solfacil_architecture_utils;
+part of clean_architecture_utils;
 
 class DartzEitherAdapter<L, R> implements EitherAdapter<L, R> {
   final Either<L, R> usecase;

@@ -1,4 +1,4 @@
-part of solfacil_architecture_utils;
+part of clean_architecture_utils;
 
 class EventInfo extends Equatable {
   final String name;

@@ -1,4 +1,4 @@
-part of solfacil_architecture_utils;
+part of clean_architecture_utils;
 
 class DefaultEvents {
   static const showSuccessMessageEvent = 'show_success_message';

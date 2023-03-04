@@ -1,7 +1,7 @@
+import 'package:clean_architecture_utils/events.dart';
+import 'package:clean_architecture_utils/utils.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
-import 'package:solfacil_architecture_utils/events.dart';
-import 'package:solfacil_architecture_utils/utils.dart';
 
 class EventBusMock extends Mock implements EventBus {}
 

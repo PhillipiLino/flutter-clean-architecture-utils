@@ -1,4 +1,4 @@
-library solfacil_architecture_utils;
+library clean_architecture_utils;
 
 import 'package:event_bus/event_bus.dart';
 import 'package:flutter/material.dart';
